@@ -8,9 +8,7 @@ void KVStore::set(std::string key, std::string value)
 {
     // TODO: Add an unordered_map member to KVStore and store the key/value pair.
     // Question: should assigning the same key replace the old value?
-    (void)key;
-    (void)value;
-    throw std::logic_error("KVStore::set is not implemented yet");
+    data_[key] = value;
 }
 
 std::optional<std::string> KVStore::get(const std::string& key) const
