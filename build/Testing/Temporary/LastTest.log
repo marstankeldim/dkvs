@@ -1,10 +1,10 @@
-Start testing: Jul 02 10:43 +05
+Start testing: Jul 02 16:42 +05
 ----------------------------------------------------------
 1/41 Testing: KVStore.GetMissingKeyReturnsNullopt
 1/41 Test: KVStore.GetMissingKeyReturnsNullopt
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=KVStore.GetMissingKeyReturnsNullopt" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"KVStore.GetMissingKeyReturnsNullopt" start time: Jul 02 10:43 +05
+"KVStore.GetMissingKeyReturnsNullopt" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -23,7 +23,7 @@ Note: Google Test filter = KVStore.GetMissingKeyReturnsNullopt
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"KVStore.GetMissingKeyReturnsNullopt" end time: Jul 02 10:43 +05
+"KVStore.GetMissingKeyReturnsNullopt" end time: Jul 02 16:42 +05
 "KVStore.GetMissingKeyReturnsNullopt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/41 Test: KVStore.SetThenGet
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=KVStore.SetThenGet" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"KVStore.SetThenGet" start time: Jul 02 10:43 +05
+"KVStore.SetThenGet" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -50,7 +50,7 @@ Note: Google Test filter = KVStore.SetThenGet
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"KVStore.SetThenGet" end time: Jul 02 10:43 +05
+"KVStore.SetThenGet" end time: Jul 02 16:42 +05
 "KVStore.SetThenGet" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/41 Test: KVStore.SetOverwritesExistingValue
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=KVStore.SetOverwritesExistingValue" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"KVStore.SetOverwritesExistingValue" start time: Jul 02 10:43 +05
+"KVStore.SetOverwritesExistingValue" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -77,7 +77,7 @@ Note: Google Test filter = KVStore.SetOverwritesExistingValue
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"KVStore.SetOverwritesExistingValue" end time: Jul 02 10:43 +05
+"KVStore.SetOverwritesExistingValue" end time: Jul 02 16:42 +05
 "KVStore.SetOverwritesExistingValue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/41 Test: KVStore.RemoveMissingReturnsFalse
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=KVStore.RemoveMissingReturnsFalse" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"KVStore.RemoveMissingReturnsFalse" start time: Jul 02 10:43 +05
+"KVStore.RemoveMissingReturnsFalse" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -104,7 +104,7 @@ Note: Google Test filter = KVStore.RemoveMissingReturnsFalse
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"KVStore.RemoveMissingReturnsFalse" end time: Jul 02 10:43 +05
+"KVStore.RemoveMissingReturnsFalse" end time: Jul 02 16:42 +05
 "KVStore.RemoveMissingReturnsFalse" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +112,7 @@ Test Passed.
 5/41 Test: KVStore.RemoveExistingReturnsTrueAndDeletes
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=KVStore.RemoveExistingReturnsTrueAndDeletes" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"KVStore.RemoveExistingReturnsTrueAndDeletes" start time: Jul 02 10:43 +05
+"KVStore.RemoveExistingReturnsTrueAndDeletes" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -131,7 +131,7 @@ Note: Google Test filter = KVStore.RemoveExistingReturnsTrueAndDeletes
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"KVStore.RemoveExistingReturnsTrueAndDeletes" end time: Jul 02 10:43 +05
+"KVStore.RemoveExistingReturnsTrueAndDeletes" end time: Jul 02 16:42 +05
 "KVStore.RemoveExistingReturnsTrueAndDeletes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,7 +139,7 @@ Test Passed.
 6/41 Test: KVStore.SizeTracksInsertions
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=KVStore.SizeTracksInsertions" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"KVStore.SizeTracksInsertions" start time: Jul 02 10:43 +05
+"KVStore.SizeTracksInsertions" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -158,7 +158,7 @@ Note: Google Test filter = KVStore.SizeTracksInsertions
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"KVStore.SizeTracksInsertions" end time: Jul 02 10:43 +05
+"KVStore.SizeTracksInsertions" end time: Jul 02 16:42 +05
 "KVStore.SizeTracksInsertions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -166,7 +166,7 @@ Test Passed.
 7/41 Test: KVStore.EmptyKeysAndValuesAreAllowed
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=KVStore.EmptyKeysAndValuesAreAllowed" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"KVStore.EmptyKeysAndValuesAreAllowed" start time: Jul 02 10:43 +05
+"KVStore.EmptyKeysAndValuesAreAllowed" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -185,7 +185,7 @@ Note: Google Test filter = KVStore.EmptyKeysAndValuesAreAllowed
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"KVStore.EmptyKeysAndValuesAreAllowed" end time: Jul 02 10:43 +05
+"KVStore.EmptyKeysAndValuesAreAllowed" end time: Jul 02 16:42 +05
 "KVStore.EmptyKeysAndValuesAreAllowed" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,7 +193,7 @@ Test Passed.
 8/41 Test: KVStore.ConcurrentReadersAndWritersDoNotCorrupt
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=KVStore.ConcurrentReadersAndWritersDoNotCorrupt" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"KVStore.ConcurrentReadersAndWritersDoNotCorrupt" start time: Jul 02 10:43 +05
+"KVStore.ConcurrentReadersAndWritersDoNotCorrupt" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -202,17 +202,17 @@ Note: Google Test filter = KVStore.ConcurrentReadersAndWritersDoNotCorrupt
 [----------] Global test environment set-up.
 [----------] 1 test from KVStore
 [ RUN      ] KVStore.ConcurrentReadersAndWritersDoNotCorrupt
-[       OK ] KVStore.ConcurrentReadersAndWritersDoNotCorrupt (14 ms)
-[----------] 1 test from KVStore (14 ms total)
+[       OK ] KVStore.ConcurrentReadersAndWritersDoNotCorrupt (21 ms)
+[----------] 1 test from KVStore (21 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (14 ms total)
+[==========] 1 test from 1 test suite ran. (21 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"KVStore.ConcurrentReadersAndWritersDoNotCorrupt" end time: Jul 02 10:43 +05
+"KVStore.ConcurrentReadersAndWritersDoNotCorrupt" end time: Jul 02 16:42 +05
 "KVStore.ConcurrentReadersAndWritersDoNotCorrupt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -220,7 +220,7 @@ Test Passed.
 9/41 Test: Codec.IntegerRoundTrip
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Codec.IntegerRoundTrip" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Codec.IntegerRoundTrip" start time: Jul 02 10:43 +05
+"Codec.IntegerRoundTrip" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -239,7 +239,7 @@ Note: Google Test filter = Codec.IntegerRoundTrip
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Codec.IntegerRoundTrip" end time: Jul 02 10:43 +05
+"Codec.IntegerRoundTrip" end time: Jul 02 16:42 +05
 "Codec.IntegerRoundTrip" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -247,7 +247,7 @@ Test Passed.
 10/41 Test: Codec.StringRoundTripIncludingEmbeddedNulAndNewline
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Codec.StringRoundTripIncludingEmbeddedNulAndNewline" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Codec.StringRoundTripIncludingEmbeddedNulAndNewline" start time: Jul 02 10:43 +05
+"Codec.StringRoundTripIncludingEmbeddedNulAndNewline" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -266,7 +266,7 @@ Note: Google Test filter = Codec.StringRoundTripIncludingEmbeddedNulAndNewline
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Codec.StringRoundTripIncludingEmbeddedNulAndNewline" end time: Jul 02 10:43 +05
+"Codec.StringRoundTripIncludingEmbeddedNulAndNewline" end time: Jul 02 16:42 +05
 "Codec.StringRoundTripIncludingEmbeddedNulAndNewline" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -274,7 +274,7 @@ Test Passed.
 11/41 Test: Codec.TruncatedInputReturnsNulloptNotCrash
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Codec.TruncatedInputReturnsNulloptNotCrash" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Codec.TruncatedInputReturnsNulloptNotCrash" start time: Jul 02 10:43 +05
+"Codec.TruncatedInputReturnsNulloptNotCrash" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -293,7 +293,7 @@ Note: Google Test filter = Codec.TruncatedInputReturnsNulloptNotCrash
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Codec.TruncatedInputReturnsNulloptNotCrash" end time: Jul 02 10:43 +05
+"Codec.TruncatedInputReturnsNulloptNotCrash" end time: Jul 02 16:42 +05
 "Codec.TruncatedInputReturnsNulloptNotCrash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -301,7 +301,7 @@ Test Passed.
 12/41 Test: Codec.StringLengthBeyondBufferIsRejected
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Codec.StringLengthBeyondBufferIsRejected" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Codec.StringLengthBeyondBufferIsRejected" start time: Jul 02 10:43 +05
+"Codec.StringLengthBeyondBufferIsRejected" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -320,7 +320,7 @@ Note: Google Test filter = Codec.StringLengthBeyondBufferIsRejected
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Codec.StringLengthBeyondBufferIsRejected" end time: Jul 02 10:43 +05
+"Codec.StringLengthBeyondBufferIsRejected" end time: Jul 02 16:42 +05
 "Codec.StringLengthBeyondBufferIsRejected" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -328,7 +328,7 @@ Test Passed.
 13/41 Test: Codec.Crc32MatchesKnownVector
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Codec.Crc32MatchesKnownVector" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Codec.Crc32MatchesKnownVector" start time: Jul 02 10:43 +05
+"Codec.Crc32MatchesKnownVector" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -347,7 +347,7 @@ Note: Google Test filter = Codec.Crc32MatchesKnownVector
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Codec.Crc32MatchesKnownVector" end time: Jul 02 10:43 +05
+"Codec.Crc32MatchesKnownVector" end time: Jul 02 16:42 +05
 "Codec.Crc32MatchesKnownVector" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -355,7 +355,7 @@ Test Passed.
 14/41 Test: Command.RoundTrip
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Command.RoundTrip" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Command.RoundTrip" start time: Jul 02 10:43 +05
+"Command.RoundTrip" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -374,7 +374,7 @@ Note: Google Test filter = Command.RoundTrip
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Command.RoundTrip" end time: Jul 02 10:43 +05
+"Command.RoundTrip" end time: Jul 02 16:42 +05
 "Command.RoundTrip" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -382,7 +382,7 @@ Test Passed.
 15/41 Test: Command.GarbageIsRejected
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Command.GarbageIsRejected" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Command.GarbageIsRejected" start time: Jul 02 10:43 +05
+"Command.GarbageIsRejected" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -401,7 +401,7 @@ Note: Google Test filter = Command.GarbageIsRejected
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Command.GarbageIsRejected" end time: Jul 02 10:43 +05
+"Command.GarbageIsRejected" end time: Jul 02 16:42 +05
 "Command.GarbageIsRejected" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -409,7 +409,7 @@ Test Passed.
 16/41 Test: RaftMsgs.RequestVoteRoundTrip
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=RaftMsgs.RequestVoteRoundTrip" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"RaftMsgs.RequestVoteRoundTrip" start time: Jul 02 10:43 +05
+"RaftMsgs.RequestVoteRoundTrip" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -428,7 +428,7 @@ Note: Google Test filter = RaftMsgs.RequestVoteRoundTrip
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RaftMsgs.RequestVoteRoundTrip" end time: Jul 02 10:43 +05
+"RaftMsgs.RequestVoteRoundTrip" end time: Jul 02 16:42 +05
 "RaftMsgs.RequestVoteRoundTrip" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -436,7 +436,7 @@ Test Passed.
 17/41 Test: RaftMsgs.AppendEntriesRoundTripWithEntries
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=RaftMsgs.AppendEntriesRoundTripWithEntries" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"RaftMsgs.AppendEntriesRoundTripWithEntries" start time: Jul 02 10:43 +05
+"RaftMsgs.AppendEntriesRoundTripWithEntries" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -455,7 +455,7 @@ Note: Google Test filter = RaftMsgs.AppendEntriesRoundTripWithEntries
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RaftMsgs.AppendEntriesRoundTripWithEntries" end time: Jul 02 10:43 +05
+"RaftMsgs.AppendEntriesRoundTripWithEntries" end time: Jul 02 16:42 +05
 "RaftMsgs.AppendEntriesRoundTripWithEntries" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -463,7 +463,7 @@ Test Passed.
 18/41 Test: RaftMsgs.WrongTagIsRejected
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=RaftMsgs.WrongTagIsRejected" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"RaftMsgs.WrongTagIsRejected" start time: Jul 02 10:43 +05
+"RaftMsgs.WrongTagIsRejected" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -482,7 +482,7 @@ Note: Google Test filter = RaftMsgs.WrongTagIsRejected
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RaftMsgs.WrongTagIsRejected" end time: Jul 02 10:43 +05
+"RaftMsgs.WrongTagIsRejected" end time: Jul 02 16:42 +05
 "RaftMsgs.WrongTagIsRejected" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -490,7 +490,7 @@ Test Passed.
 19/41 Test: StorageTest.FreshDirectoryLoadsEmpty
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=StorageTest.FreshDirectoryLoadsEmpty" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"StorageTest.FreshDirectoryLoadsEmpty" start time: Jul 02 10:43 +05
+"StorageTest.FreshDirectoryLoadsEmpty" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -509,7 +509,7 @@ Note: Google Test filter = StorageTest.FreshDirectoryLoadsEmpty
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageTest.FreshDirectoryLoadsEmpty" end time: Jul 02 10:43 +05
+"StorageTest.FreshDirectoryLoadsEmpty" end time: Jul 02 16:42 +05
 "StorageTest.FreshDirectoryLoadsEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -517,7 +517,7 @@ Test Passed.
 20/41 Test: StorageTest.MetaSurvivesReopen
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=StorageTest.MetaSurvivesReopen" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"StorageTest.MetaSurvivesReopen" start time: Jul 02 10:43 +05
+"StorageTest.MetaSurvivesReopen" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -536,7 +536,7 @@ Note: Google Test filter = StorageTest.MetaSurvivesReopen
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageTest.MetaSurvivesReopen" end time: Jul 02 10:43 +05
+"StorageTest.MetaSurvivesReopen" end time: Jul 02 16:42 +05
 "StorageTest.MetaSurvivesReopen" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -544,7 +544,7 @@ Test Passed.
 21/41 Test: StorageTest.LogEntriesSurviveReopen
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=StorageTest.LogEntriesSurviveReopen" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"StorageTest.LogEntriesSurviveReopen" start time: Jul 02 10:43 +05
+"StorageTest.LogEntriesSurviveReopen" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -553,17 +553,17 @@ Note: Google Test filter = StorageTest.LogEntriesSurviveReopen
 [----------] Global test environment set-up.
 [----------] 1 test from StorageTest
 [ RUN      ] StorageTest.LogEntriesSurviveReopen
-[       OK ] StorageTest.LogEntriesSurviveReopen (14 ms)
-[----------] 1 test from StorageTest (14 ms total)
+[       OK ] StorageTest.LogEntriesSurviveReopen (18 ms)
+[----------] 1 test from StorageTest (18 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (14 ms total)
+[==========] 1 test from 1 test suite ran. (18 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageTest.LogEntriesSurviveReopen" end time: Jul 02 10:43 +05
+"StorageTest.LogEntriesSurviveReopen" end time: Jul 02 16:42 +05
 "StorageTest.LogEntriesSurviveReopen" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -571,7 +571,7 @@ Test Passed.
 22/41 Test: StorageTest.TruncateFromRemovesSuffixOnDiskToo
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=StorageTest.TruncateFromRemovesSuffixOnDiskToo" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"StorageTest.TruncateFromRemovesSuffixOnDiskToo" start time: Jul 02 10:43 +05
+"StorageTest.TruncateFromRemovesSuffixOnDiskToo" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -590,7 +590,7 @@ Note: Google Test filter = StorageTest.TruncateFromRemovesSuffixOnDiskToo
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageTest.TruncateFromRemovesSuffixOnDiskToo" end time: Jul 02 10:43 +05
+"StorageTest.TruncateFromRemovesSuffixOnDiskToo" end time: Jul 02 16:42 +05
 "StorageTest.TruncateFromRemovesSuffixOnDiskToo" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -598,7 +598,7 @@ Test Passed.
 23/41 Test: StorageTest.TornTailWriteIsDiscardedOnRecovery
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=StorageTest.TornTailWriteIsDiscardedOnRecovery" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"StorageTest.TornTailWriteIsDiscardedOnRecovery" start time: Jul 02 10:43 +05
+"StorageTest.TornTailWriteIsDiscardedOnRecovery" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -618,7 +618,7 @@ storage: discarding 8 bytes of torn/corrupt wal tail (1 entries recovered)
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageTest.TornTailWriteIsDiscardedOnRecovery" end time: Jul 02 10:43 +05
+"StorageTest.TornTailWriteIsDiscardedOnRecovery" end time: Jul 02 16:42 +05
 "StorageTest.TornTailWriteIsDiscardedOnRecovery" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -626,7 +626,7 @@ Test Passed.
 24/41 Test: StorageTest.CorruptedRecordIsDetectedByCrc
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=StorageTest.CorruptedRecordIsDetectedByCrc" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"StorageTest.CorruptedRecordIsDetectedByCrc" start time: Jul 02 10:43 +05
+"StorageTest.CorruptedRecordIsDetectedByCrc" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -636,17 +636,17 @@ Note: Google Test filter = StorageTest.CorruptedRecordIsDetectedByCrc
 [----------] 1 test from StorageTest
 [ RUN      ] StorageTest.CorruptedRecordIsDetectedByCrc
 storage: discarding 24 bytes of torn/corrupt wal tail (1 entries recovered)
-[       OK ] StorageTest.CorruptedRecordIsDetectedByCrc (13 ms)
-[----------] 1 test from StorageTest (13 ms total)
+[       OK ] StorageTest.CorruptedRecordIsDetectedByCrc (15 ms)
+[----------] 1 test from StorageTest (15 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (13 ms total)
+[==========] 1 test from 1 test suite ran. (15 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"StorageTest.CorruptedRecordIsDetectedByCrc" end time: Jul 02 10:43 +05
+"StorageTest.CorruptedRecordIsDetectedByCrc" end time: Jul 02 16:42 +05
 "StorageTest.CorruptedRecordIsDetectedByCrc" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -654,7 +654,7 @@ Test Passed.
 25/41 Test: Protocol.ParsesSet
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Protocol.ParsesSet" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Protocol.ParsesSet" start time: Jul 02 10:43 +05
+"Protocol.ParsesSet" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -673,7 +673,7 @@ Note: Google Test filter = Protocol.ParsesSet
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Protocol.ParsesSet" end time: Jul 02 10:43 +05
+"Protocol.ParsesSet" end time: Jul 02 16:42 +05
 "Protocol.ParsesSet" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -681,7 +681,7 @@ Test Passed.
 26/41 Test: Protocol.SetValueKeepsSpaces
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Protocol.SetValueKeepsSpaces" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Protocol.SetValueKeepsSpaces" start time: Jul 02 10:43 +05
+"Protocol.SetValueKeepsSpaces" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -700,7 +700,7 @@ Note: Google Test filter = Protocol.SetValueKeepsSpaces
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Protocol.SetValueKeepsSpaces" end time: Jul 02 10:43 +05
+"Protocol.SetValueKeepsSpaces" end time: Jul 02 16:42 +05
 "Protocol.SetValueKeepsSpaces" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -708,7 +708,7 @@ Test Passed.
 27/41 Test: Protocol.SetWithEmptyValueIsLegal
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Protocol.SetWithEmptyValueIsLegal" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Protocol.SetWithEmptyValueIsLegal" start time: Jul 02 10:43 +05
+"Protocol.SetWithEmptyValueIsLegal" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -727,7 +727,7 @@ Note: Google Test filter = Protocol.SetWithEmptyValueIsLegal
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Protocol.SetWithEmptyValueIsLegal" end time: Jul 02 10:43 +05
+"Protocol.SetWithEmptyValueIsLegal" end time: Jul 02 16:42 +05
 "Protocol.SetWithEmptyValueIsLegal" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -735,7 +735,7 @@ Test Passed.
 28/41 Test: Protocol.ParsesGetAndDel
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Protocol.ParsesGetAndDel" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Protocol.ParsesGetAndDel" start time: Jul 02 10:43 +05
+"Protocol.ParsesGetAndDel" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -754,7 +754,7 @@ Note: Google Test filter = Protocol.ParsesGetAndDel
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Protocol.ParsesGetAndDel" end time: Jul 02 10:43 +05
+"Protocol.ParsesGetAndDel" end time: Jul 02 16:42 +05
 "Protocol.ParsesGetAndDel" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -762,7 +762,7 @@ Test Passed.
 29/41 Test: Protocol.VerbsAreCaseInsensitive
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Protocol.VerbsAreCaseInsensitive" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Protocol.VerbsAreCaseInsensitive" start time: Jul 02 10:43 +05
+"Protocol.VerbsAreCaseInsensitive" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -781,7 +781,7 @@ Note: Google Test filter = Protocol.VerbsAreCaseInsensitive
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Protocol.VerbsAreCaseInsensitive" end time: Jul 02 10:43 +05
+"Protocol.VerbsAreCaseInsensitive" end time: Jul 02 16:42 +05
 "Protocol.VerbsAreCaseInsensitive" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -789,7 +789,7 @@ Test Passed.
 30/41 Test: Protocol.GetWithTrailingGarbageIsRejected
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Protocol.GetWithTrailingGarbageIsRejected" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Protocol.GetWithTrailingGarbageIsRejected" start time: Jul 02 10:43 +05
+"Protocol.GetWithTrailingGarbageIsRejected" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -808,7 +808,7 @@ Note: Google Test filter = Protocol.GetWithTrailingGarbageIsRejected
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Protocol.GetWithTrailingGarbageIsRejected" end time: Jul 02 10:43 +05
+"Protocol.GetWithTrailingGarbageIsRejected" end time: Jul 02 16:42 +05
 "Protocol.GetWithTrailingGarbageIsRejected" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -816,7 +816,7 @@ Test Passed.
 31/41 Test: Protocol.MissingKeyIsRejected
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Protocol.MissingKeyIsRejected" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Protocol.MissingKeyIsRejected" start time: Jul 02 10:43 +05
+"Protocol.MissingKeyIsRejected" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -835,7 +835,7 @@ Note: Google Test filter = Protocol.MissingKeyIsRejected
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Protocol.MissingKeyIsRejected" end time: Jul 02 10:43 +05
+"Protocol.MissingKeyIsRejected" end time: Jul 02 16:42 +05
 "Protocol.MissingKeyIsRejected" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -843,7 +843,7 @@ Test Passed.
 32/41 Test: Protocol.UnknownVerbIsRejected
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Protocol.UnknownVerbIsRejected" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Protocol.UnknownVerbIsRejected" start time: Jul 02 10:43 +05
+"Protocol.UnknownVerbIsRejected" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -862,7 +862,7 @@ Note: Google Test filter = Protocol.UnknownVerbIsRejected
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Protocol.UnknownVerbIsRejected" end time: Jul 02 10:43 +05
+"Protocol.UnknownVerbIsRejected" end time: Jul 02 16:42 +05
 "Protocol.UnknownVerbIsRejected" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -870,7 +870,7 @@ Test Passed.
 33/41 Test: Protocol.ControlRequests
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=Protocol.ControlRequests" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"Protocol.ControlRequests" start time: Jul 02 10:43 +05
+"Protocol.ControlRequests" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -889,7 +889,7 @@ Note: Google Test filter = Protocol.ControlRequests
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Protocol.ControlRequests" end time: Jul 02 10:43 +05
+"Protocol.ControlRequests" end time: Jul 02 16:42 +05
 "Protocol.ControlRequests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -897,7 +897,7 @@ Test Passed.
 34/41 Test: RaftClusterTest.SingleNodeElectsItselfAndCommits
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=RaftClusterTest.SingleNodeElectsItselfAndCommits" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"RaftClusterTest.SingleNodeElectsItselfAndCommits" start time: Jul 02 10:43 +05
+"RaftClusterTest.SingleNodeElectsItselfAndCommits" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -907,17 +907,17 @@ Note: Google Test filter = RaftClusterTest.SingleNodeElectsItselfAndCommits
 [----------] 1 test from RaftClusterTest
 [ RUN      ] RaftClusterTest.SingleNodeElectsItselfAndCommits
 [node 0] became leader in term 1
-[       OK ] RaftClusterTest.SingleNodeElectsItselfAndCommits (222 ms)
-[----------] 1 test from RaftClusterTest (222 ms total)
+[       OK ] RaftClusterTest.SingleNodeElectsItselfAndCommits (207 ms)
+[----------] 1 test from RaftClusterTest (207 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (222 ms total)
+[==========] 1 test from 1 test suite ran. (207 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.23 sec
+Test time =   0.21 sec
 ----------------------------------------------------------
 Test Passed.
-"RaftClusterTest.SingleNodeElectsItselfAndCommits" end time: Jul 02 10:43 +05
+"RaftClusterTest.SingleNodeElectsItselfAndCommits" end time: Jul 02 16:42 +05
 "RaftClusterTest.SingleNodeElectsItselfAndCommits" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -925,7 +925,7 @@ Test Passed.
 35/41 Test: RaftClusterTest.ThreeNodesElectExactlyOneLeader
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=RaftClusterTest.ThreeNodesElectExactlyOneLeader" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"RaftClusterTest.ThreeNodesElectExactlyOneLeader" start time: Jul 02 10:43 +05
+"RaftClusterTest.ThreeNodesElectExactlyOneLeader" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -934,18 +934,18 @@ Note: Google Test filter = RaftClusterTest.ThreeNodesElectExactlyOneLeader
 [----------] Global test environment set-up.
 [----------] 1 test from RaftClusterTest
 [ RUN      ] RaftClusterTest.ThreeNodesElectExactlyOneLeader
-[node 0] became leader in term 1
-[       OK ] RaftClusterTest.ThreeNodesElectExactlyOneLeader (665 ms)
-[----------] 1 test from RaftClusterTest (665 ms total)
+[node 1] became leader in term 1
+[       OK ] RaftClusterTest.ThreeNodesElectExactlyOneLeader (732 ms)
+[----------] 1 test from RaftClusterTest (732 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (665 ms total)
+[==========] 1 test from 1 test suite ran. (732 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.67 sec
+Test time =   0.74 sec
 ----------------------------------------------------------
 Test Passed.
-"RaftClusterTest.ThreeNodesElectExactlyOneLeader" end time: Jul 02 10:43 +05
+"RaftClusterTest.ThreeNodesElectExactlyOneLeader" end time: Jul 02 16:42 +05
 "RaftClusterTest.ThreeNodesElectExactlyOneLeader" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -953,7 +953,7 @@ Test Passed.
 36/41 Test: RaftClusterTest.CommandsReplicateToAllNodes
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=RaftClusterTest.CommandsReplicateToAllNodes" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"RaftClusterTest.CommandsReplicateToAllNodes" start time: Jul 02 10:43 +05
+"RaftClusterTest.CommandsReplicateToAllNodes" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -963,17 +963,17 @@ Note: Google Test filter = RaftClusterTest.CommandsReplicateToAllNodes
 [----------] 1 test from RaftClusterTest
 [ RUN      ] RaftClusterTest.CommandsReplicateToAllNodes
 [node 2] became leader in term 1
-[       OK ] RaftClusterTest.CommandsReplicateToAllNodes (276 ms)
-[----------] 1 test from RaftClusterTest (276 ms total)
+[       OK ] RaftClusterTest.CommandsReplicateToAllNodes (273 ms)
+[----------] 1 test from RaftClusterTest (273 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (276 ms total)
+[==========] 1 test from 1 test suite ran. (273 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.28 sec
 ----------------------------------------------------------
 Test Passed.
-"RaftClusterTest.CommandsReplicateToAllNodes" end time: Jul 02 10:43 +05
+"RaftClusterTest.CommandsReplicateToAllNodes" end time: Jul 02 16:42 +05
 "RaftClusterTest.CommandsReplicateToAllNodes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -981,7 +981,7 @@ Test Passed.
 37/41 Test: RaftClusterTest.SubmitToFollowerIsRejectedWithLeaderHint
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=RaftClusterTest.SubmitToFollowerIsRejectedWithLeaderHint" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"RaftClusterTest.SubmitToFollowerIsRejectedWithLeaderHint" start time: Jul 02 10:43 +05
+"RaftClusterTest.SubmitToFollowerIsRejectedWithLeaderHint" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -991,17 +991,17 @@ Note: Google Test filter = RaftClusterTest.SubmitToFollowerIsRejectedWithLeaderH
 [----------] 1 test from RaftClusterTest
 [ RUN      ] RaftClusterTest.SubmitToFollowerIsRejectedWithLeaderHint
 [node 1] became leader in term 1
-[       OK ] RaftClusterTest.SubmitToFollowerIsRejectedWithLeaderHint (173 ms)
-[----------] 1 test from RaftClusterTest (173 ms total)
+[       OK ] RaftClusterTest.SubmitToFollowerIsRejectedWithLeaderHint (174 ms)
+[----------] 1 test from RaftClusterTest (174 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (173 ms total)
+[==========] 1 test from 1 test suite ran. (174 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.18 sec
 ----------------------------------------------------------
 Test Passed.
-"RaftClusterTest.SubmitToFollowerIsRejectedWithLeaderHint" end time: Jul 02 10:43 +05
+"RaftClusterTest.SubmitToFollowerIsRejectedWithLeaderHint" end time: Jul 02 16:42 +05
 "RaftClusterTest.SubmitToFollowerIsRejectedWithLeaderHint" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1009,7 +1009,7 @@ Test Passed.
 38/41 Test: RaftClusterTest.CommitProceedsWithOneFollowerDown
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=RaftClusterTest.CommitProceedsWithOneFollowerDown" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"RaftClusterTest.CommitProceedsWithOneFollowerDown" start time: Jul 02 10:43 +05
+"RaftClusterTest.CommitProceedsWithOneFollowerDown" start time: Jul 02 16:42 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1018,18 +1018,18 @@ Note: Google Test filter = RaftClusterTest.CommitProceedsWithOneFollowerDown
 [----------] Global test environment set-up.
 [----------] 1 test from RaftClusterTest
 [ RUN      ] RaftClusterTest.CommitProceedsWithOneFollowerDown
-[node 0] became leader in term 1
-[       OK ] RaftClusterTest.CommitProceedsWithOneFollowerDown (218 ms)
-[----------] 1 test from RaftClusterTest (218 ms total)
+[node 1] became leader in term 1
+[       OK ] RaftClusterTest.CommitProceedsWithOneFollowerDown (191 ms)
+[----------] 1 test from RaftClusterTest (191 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (218 ms total)
+[==========] 1 test from 1 test suite ran. (191 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.22 sec
+Test time =   0.20 sec
 ----------------------------------------------------------
 Test Passed.
-"RaftClusterTest.CommitProceedsWithOneFollowerDown" end time: Jul 02 10:43 +05
+"RaftClusterTest.CommitProceedsWithOneFollowerDown" end time: Jul 02 16:42 +05
 "RaftClusterTest.CommitProceedsWithOneFollowerDown" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1037,7 +1037,7 @@ Test Passed.
 39/41 Test: RaftClusterTest.LeaderPartitionTriggersFailover
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=RaftClusterTest.LeaderPartitionTriggersFailover" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"RaftClusterTest.LeaderPartitionTriggersFailover" start time: Jul 02 10:43 +05
+"RaftClusterTest.LeaderPartitionTriggersFailover" start time: Jul 02 16:43 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1047,18 +1047,18 @@ Note: Google Test filter = RaftClusterTest.LeaderPartitionTriggersFailover
 [----------] 1 test from RaftClusterTest
 [ RUN      ] RaftClusterTest.LeaderPartitionTriggersFailover
 [node 1] became leader in term 1
-[node 2] became leader in term 2
-[       OK ] RaftClusterTest.LeaderPartitionTriggersFailover (416 ms)
-[----------] 1 test from RaftClusterTest (416 ms total)
+[node 0] became leader in term 2
+[       OK ] RaftClusterTest.LeaderPartitionTriggersFailover (464 ms)
+[----------] 1 test from RaftClusterTest (464 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (416 ms total)
+[==========] 1 test from 1 test suite ran. (464 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.42 sec
+Test time =   0.47 sec
 ----------------------------------------------------------
 Test Passed.
-"RaftClusterTest.LeaderPartitionTriggersFailover" end time: Jul 02 10:43 +05
+"RaftClusterTest.LeaderPartitionTriggersFailover" end time: Jul 02 16:43 +05
 "RaftClusterTest.LeaderPartitionTriggersFailover" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1066,7 +1066,7 @@ Test Passed.
 40/41 Test: RaftClusterTest.UncommittedEntriesOnPartitionedLeaderAreDiscarded
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=RaftClusterTest.UncommittedEntriesOnPartitionedLeaderAreDiscarded" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"RaftClusterTest.UncommittedEntriesOnPartitionedLeaderAreDiscarded" start time: Jul 02 10:43 +05
+"RaftClusterTest.UncommittedEntriesOnPartitionedLeaderAreDiscarded" start time: Jul 02 16:43 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1075,19 +1075,19 @@ Note: Google Test filter = RaftClusterTest.UncommittedEntriesOnPartitionedLeader
 [----------] Global test environment set-up.
 [----------] 1 test from RaftClusterTest
 [ RUN      ] RaftClusterTest.UncommittedEntriesOnPartitionedLeaderAreDiscarded
-[node 1] became leader in term 1
-[node 2] became leader in term 2
-[       OK ] RaftClusterTest.UncommittedEntriesOnPartitionedLeaderAreDiscarded (736 ms)
-[----------] 1 test from RaftClusterTest (736 ms total)
+[node 0] became leader in term 1
+[node 1] became leader in term 2
+[       OK ] RaftClusterTest.UncommittedEntriesOnPartitionedLeaderAreDiscarded (671 ms)
+[----------] 1 test from RaftClusterTest (671 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (736 ms total)
+[==========] 1 test from 1 test suite ran. (671 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.74 sec
+Test time =   0.68 sec
 ----------------------------------------------------------
 Test Passed.
-"RaftClusterTest.UncommittedEntriesOnPartitionedLeaderAreDiscarded" end time: Jul 02 10:43 +05
+"RaftClusterTest.UncommittedEntriesOnPartitionedLeaderAreDiscarded" end time: Jul 02 16:43 +05
 "RaftClusterTest.UncommittedEntriesOnPartitionedLeaderAreDiscarded" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1095,7 +1095,7 @@ Test Passed.
 41/41 Test: RaftClusterTest.RestartedNodeRecoversLogAndCatchesUp
 Command: "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests" "--gtest_filter=RaftClusterTest.RestartedNodeRecoversLogAndCatchesUp" "--gtest_also_run_disabled_tests"
 Directory: /Users/ayan/Documents/cmpsc/dkvs/build
-"RaftClusterTest.RestartedNodeRecoversLogAndCatchesUp" start time: Jul 02 10:43 +05
+"RaftClusterTest.RestartedNodeRecoversLogAndCatchesUp" start time: Jul 02 16:43 +05
 Output:
 ----------------------------------------------------------
 Running main() from /Users/ayan/Documents/cmpsc/dkvs/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1105,18 +1105,18 @@ Note: Google Test filter = RaftClusterTest.RestartedNodeRecoversLogAndCatchesUp
 [----------] 1 test from RaftClusterTest
 [ RUN      ] RaftClusterTest.RestartedNodeRecoversLogAndCatchesUp
 [node 0] became leader in term 1
-[       OK ] RaftClusterTest.RestartedNodeRecoversLogAndCatchesUp (289 ms)
-[----------] 1 test from RaftClusterTest (290 ms total)
+[       OK ] RaftClusterTest.RestartedNodeRecoversLogAndCatchesUp (268 ms)
+[----------] 1 test from RaftClusterTest (268 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (290 ms total)
+[==========] 1 test from 1 test suite ran. (268 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.30 sec
+Test time =   0.27 sec
 ----------------------------------------------------------
 Test Passed.
-"RaftClusterTest.RestartedNodeRecoversLogAndCatchesUp" end time: Jul 02 10:43 +05
+"RaftClusterTest.RestartedNodeRecoversLogAndCatchesUp" end time: Jul 02 16:43 +05
 "RaftClusterTest.RestartedNodeRecoversLogAndCatchesUp" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jul 02 10:43 +05
+End testing: Jul 02 16:43 +05

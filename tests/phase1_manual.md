@@ -1,5 +1,9 @@
 # Phase 1 Manual Test Checklist
 
+> Historical note: this checklist is now fully automated in
+> `tests/kv_store_test.cpp` (run via `ctest`). Kept as a record of the
+> phase-1 design questions.
+
 After implementing `KVStore`, verify these cases manually or with a small test
 program:
 
