@@ -1,0 +1,5 @@
+if(EXISTS "/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests[1]_tests.cmake")
+  include("/Users/ayan/Documents/cmpsc/dkvs/build/dkvs_tests[1]_tests.cmake")
+else()
+  add_test(dkvs_tests_NOT_BUILT dkvs_tests_NOT_BUILT)
+endif()

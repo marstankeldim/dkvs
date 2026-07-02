@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdkvs_core.a CMakeFiles/dkvs_core.dir/src/kv_store.cpp.o CMakeFiles/dkvs_core.dir/src/codec.cpp.o CMakeFiles/dkvs_core.dir/src/command.cpp.o CMakeFiles/dkvs_core.dir/src/storage.cpp.o CMakeFiles/dkvs_core.dir/src/net.cpp.o CMakeFiles/dkvs_core.dir/src/raft_msgs.cpp.o CMakeFiles/dkvs_core.dir/src/transport.cpp.o CMakeFiles/dkvs_core.dir/src/raft.cpp.o CMakeFiles/dkvs_core.dir/src/protocol.cpp.o CMakeFiles/dkvs_core.dir/src/server.cpp.o
+/usr/bin/ranlib libdkvs_core.a

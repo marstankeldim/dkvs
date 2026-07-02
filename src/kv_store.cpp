@@ -1,42 +1,41 @@
 #include "dkvs/kv_store.hpp"
 
-#include <stdexcept>
+#include <mutex>
 
 namespace dkvs {
 
 void KVStore::set(std::string key, std::string value)
 {
-    // TODO: Add an unordered_map member to KVStore and store the key/value pair.
-    // Question: should assigning the same key replace the old value?
-    data_[key] = value;
+    std::unique_lock lock(mutex_);
+    data_[std::move(key)] = std::move(value);
 }
 
 std::optional<std::string> KVStore::get(const std::string& key) const
 {
-    // TODO: Return std::nullopt when the key is not present.
-    (void)key;
-    throw std::logic_error("KVStore::get is not implemented yet");
+    std::shared_lock lock(mutex_);
+    auto it = data_.find(key);
+    if (it == data_.end()) {
+        return std::nullopt;
+    }
+    return it->second;
 }
 
 bool KVStore::remove(const std::string& key)
 {
-    // TODO: Delete the key if present. Return true if something was removed.
-    (void)key;
-    throw std::logic_error("KVStore::remove is not implemented yet");
+    std::unique_lock lock(mutex_);
+    return data_.erase(key) > 0;
 }
 
 bool KVStore::contains(const std::string& key) const
 {
-    // TODO: Return whether the key exists.
-    (void)key;
-    throw std::logic_error("KVStore::contains is not implemented yet");
+    std::shared_lock lock(mutex_);
+    return data_.find(key) != data_.end();
 }
 
 std::size_t KVStore::size() const
 {
-    // TODO: Return the number of key/value pairs currently stored.
-    throw std::logic_error("KVStore::size is not implemented yet");
+    std::shared_lock lock(mutex_);
+    return data_.size();
 }
 
 } // namespace dkvs
-
